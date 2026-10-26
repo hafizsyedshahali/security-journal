@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-I'm Hafiz, an AI Automation Engineer. I work with n8n, Python and data pipelines.
+I'm Hafiz Syed Shah Ali, an AI Engineer. I work with n8n, Python and data pipelines.
 
 I'm moving into SOC engineering and security automation.
 
