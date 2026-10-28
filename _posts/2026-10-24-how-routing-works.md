@@ -1,7 +1,7 @@
 ---
-title: "Networking Recap 5: How Routers Decide Where Packets Go"
-date: 2026-10-28 10:00:00 +0500
-categories: [Networking Recap]
+title: "How Routers Decide Where Packets Go"
+date: 2026-10-24 22:00:00 +0500
+categories: [Daily Log]
 tags: [networking, routing, default-gateway, nat]
 ---
 
@@ -75,6 +75,6 @@ Most homes and offices use private addresses inside. The router at the edge uses
 - **NAT and investigations:** the public IP in an external alert may belong to hundreds of devices. To find the real machine, you need the NAT logs from the edge device, matched by time and port.
 - **TTL values** in logs can give hints about the sending operating system and how many hops away it is.
 
-## Next in this series
+## Next
 
-The last recap post: wireless networks and how to secure a home or small office network.
+Tomorrow: wireless networks and how to secure a home or small office network.

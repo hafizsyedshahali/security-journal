@@ -1,7 +1,7 @@
 ---
-title: "Networking Recap 2: The OSI and TCP/IP Models"
-date: 2026-10-28 07:00:00 +0500
-categories: [Networking Recap]
+title: "The OSI and TCP/IP Models"
+date: 2026-10-21 22:00:00 +0500
+categories: [Daily Log]
 tags: [networking, osi-model, tcp-ip, encapsulation]
 ---
 
@@ -83,6 +83,6 @@ Security tools are described by the layer they work at:
 
 When I read an alert, knowing the layer tells me which logs to check: switch logs for Layer 2, firewall logs for Layer 3 and 4, and web server or proxy logs for Layer 7.
 
-## Next in this series
+## Next
 
-Cables, Ethernet frames, MAC addresses and how switches decide where to send data.
+Tomorrow: cables, Ethernet frames, MAC addresses and how switches decide where to send data.

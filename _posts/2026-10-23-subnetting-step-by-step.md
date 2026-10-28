@@ -1,7 +1,7 @@
 ---
-title: "Networking Recap 4: Subnetting, Step by Step"
-date: 2026-10-28 09:00:00 +0500
-categories: [Networking Recap]
+title: "Subnetting, Step by Step"
+date: 2026-10-23 22:00:00 +0500
+categories: [Daily Log]
 tags: [networking, ipv4, subnetting, cidr]
 ---
 
@@ -105,6 +105,6 @@ Subnets are everywhere in security work:
 - An internal IP talking to many other subnets it never usually talks to can be a sign of **lateral movement** after an attack.
 - A user complaining of "no internet" with a `169.254.x.x` address points straight to a DHCP problem, not a security incident.
 
-## Next in this series
+## Next
 
-How routers decide where to send packets.
+Tomorrow: how routers decide where to send packets.

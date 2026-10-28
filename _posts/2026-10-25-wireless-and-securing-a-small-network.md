@@ -1,11 +1,11 @@
 ---
-title: "Networking Recap 6: Wireless and Securing a Small Network"
-date: 2026-10-28 11:00:00 +0500
-categories: [Networking Recap]
+title: "Wireless and Securing a Small Network"
+date: 2026-10-25 22:00:00 +0500
+categories: [Daily Log]
 tags: [networking, wireless, wpa3, network-security]
 ---
 
-The last post in this recap series. It brings everything together with something most of us use every day: a home or small office wireless network, and how to secure it.
+Today's topic brought a lot of this week together with something most of us use every day: a home or small office wireless network, and how to secure it.
 
 ## One box, many jobs
 
@@ -18,7 +18,7 @@ The "Wi-Fi router" at home is actually several devices in one:
 - **NAT:** lets every device share one public IP address
 - **Basic firewall:** blocks unwanted connections from the internet
 
-Seeing it this way connected all the earlier topics for me. Every concept from this series is running inside that one small box.
+Seeing it this way connected all the earlier topics for me. Almost everything I studied this week is running inside that one small box.
 
 ## How Wi-Fi works
 
@@ -78,14 +78,6 @@ If step 3 works but step 4 fails, the problem is DNS, not the connection. Going 
 - **Shadow IT:** an employee plugging their own Wi-Fi router into the office network can open a hole around the company's security.
 - With remote work, a user's home network is now part of the company's attack surface. Basic home network security is company security.
 
-## Wrapping up the series
+## Next
 
-This series covered:
-1. What a network is made of
-2. The OSI and TCP/IP models
-3. Cables, Ethernet and switches
-4. Subnetting
-5. Routing
-6. Wireless and securing a small network
-
-Along with the posts on IPv4 vs IPv6, ARP/DNS/DHCP/TCP/UDP and Cisco IOS, that's my full networking foundation written down in one place. Next, I'm moving on to cloud.
+Next I start Cisco's Networking Devices course, going deeper into switches, routers and IP addressing.

@@ -1,7 +1,7 @@
 ---
-title: "Networking Recap 3: Cables, Ethernet and How Switches Work"
-date: 2026-10-28 08:00:00 +0500
-categories: [Networking Recap]
+title: "Cables, Ethernet and How Switches Work"
+date: 2026-10-22 22:00:00 +0500
+categories: [Daily Log]
 tags: [networking, ethernet, mac-address, switching]
 ---
 
@@ -86,6 +86,6 @@ Defenses include **port security** on switches (limiting how many MAC addresses 
 
 The MAC address table is also useful during an investigation. If I know a suspicious device's MAC address, the switch tells me exactly which port, and so which desk or room, it's plugged into.
 
-## Next in this series
+## Next
 
-Subnetting, step by step.
+Tomorrow: subnetting, step by step.

@@ -1,13 +1,11 @@
 ---
-title: "Networking Recap 1: What a Network Is Made Of"
-date: 2026-10-28 06:00:00 +0500
-categories: [Networking Recap]
+title: "What a Network Is Made Of"
+date: 2026-10-20 22:00:00 +0500
+categories: [Daily Log]
 tags: [networking, lan, wan, network-design]
 ---
 
-Over the last few weeks I finished Cisco's networking courses. Before moving on to cloud, I want to write down everything I learned in one place. This is the first post in a short recap series. Writing it out is also my revision.
-
-This post is about the basics: what a network is, what it's made of, and how it is designed.
+Today I studied the basics of networking: what a network is, what it's made of, and how it is designed.
 
 ## What a network is
 
@@ -83,6 +81,6 @@ When an alert comes in, the first questions are always about the network: Which 
 
 Knowing the layers also helps with investigations. Access switches show which port and room a device is connected to. The firewall and core show traffic leaving the company. And the CIA triad is the simplest way to explain the impact of an incident: was data seen, changed, or made unavailable?
 
-## Next in this series
+## Next
 
-The OSI and TCP/IP models, and how data is wrapped and unwrapped as it moves through a network.
+Tomorrow: the OSI and TCP/IP models, and how data is wrapped and unwrapped as it moves through a network.
