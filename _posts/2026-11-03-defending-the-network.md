@@ -178,4 +178,4 @@ This whole post is basically the SOC toolbox:
 
 ## Next
 
-That completes the Endpoint Security course. Next up is Cisco's **Network Defense**, which goes deeper into many of the defenses I touched on today.
+I still have a few sections of the Endpoint Security course left, and I plan to cover them tomorrow. After that, I'll move on to Cisco's **Network Defense** course, which goes deeper into many of the defenses I touched on today.
