@@ -5,7 +5,7 @@ categories: [Daily Log, Projects]
 tags: [gitleaks, secrets, detection-engineering, github-actions, semgrep, ci-cd]
 ---
 
-In my [last post](/security-journal/posts/one-header-to-an-a/) I wrote that gitleaks reported no leaks in my portfolio repository, while a manual review found a Gmail app password in the git history.
+In my [last post]({% post_url 2026-10-28-one-header-to-an-a %}) I wrote that gitleaks reported no leaks in my portfolio repository, while a manual review found a Gmail app password in the git history.
 
 A missed detection is a problem to fix, not a footnote. This post covers why the scanner missed it, the rule I wrote to close the gap, how I proved the rule works on the real incident, and the pipeline that now runs it on every change.
 
