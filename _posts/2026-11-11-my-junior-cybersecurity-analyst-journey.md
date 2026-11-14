@@ -3,6 +3,7 @@ title: "Looking Back: My Junior Cybersecurity Analyst Journey So Far"
 date: 2026-11-11 21:00:00 +0500
 categories: [Daily Log]
 tags: [cybersecurity, career-change, learning-journey, soc, reflection]
+pin: true
 ---
 
 A few weeks ago I started this journal with one goal: write every day about what I study as I move from AI automation into cybersecurity. I've now finished every course in Cisco's Junior Cybersecurity Analyst Career Path, and with the last posts from it written up, this felt like the right moment to stop and look back before moving on to the next stage.
