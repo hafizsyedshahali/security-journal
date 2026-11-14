@@ -20,14 +20,22 @@ Securing network devices and Windows and Linux endpoints, identity management, f
 **Endpoint Security**, Cisco Networking Academy, November 2026  
 Network and application attacks, network defenses, and securing Windows and Linux systems.
 
-**Introduction to Cybersecurity**, Cisco Networking Academy, 2026  
+**Introduction to Cybersecurity**, Cisco Networking Academy, October 2026  
 Cybersecurity fundamentals: data protection, threats, attacks and how to defend against them.
 
-## Networking
+## Networking and IT Fundamentals
 
-**Networking Devices and Initial Configuration**, Cisco Networking Academy, 2026  
+**Networking Devices and Initial Configuration**, Cisco Networking Academy, October 2026  
+Switches, routers, Cisco IOS basics and initial device configuration.
 
-**Networking Basics**, Cisco Networking Academy, 2026  
+**Networking Basics**, Cisco Networking Academy, October 2026  
+How networks work: the OSI and TCP/IP models, IP addressing, and core protocols.
+
+**Operating Systems Basics**, Cisco Networking Academy, October 2026  
+Windows and Linux fundamentals: installation, file systems, users and command-line basics.
+
+**Computer Hardware Basics**, Cisco Networking Academy, October 2026  
+Computer components, how they work together, and basic troubleshooting.
 
 ## Cloud
 
