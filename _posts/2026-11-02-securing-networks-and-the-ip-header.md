@@ -1,7 +1,7 @@
 ---
 title: "Endpoint Security, Part 5: Securing Networks, Threat Actors and the IP Header"
 date: 2026-11-02 14:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Endpoint Security]
 tags: [cybersecurity, network-security, data-loss, risk, threat-actors, ipv4, ipv6, packet-header]
 ---
 

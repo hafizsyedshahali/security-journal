@@ -1,7 +1,7 @@
 ---
 title: "Cybersecurity Foundations, Part 1: Data, Privacy, the McCumber Cube and Attackers"
 date: 2026-10-30 12:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Introduction to Cybersecurity]
 tags: [cybersecurity, privacy, mccumber-cube, threat-actors]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Why I'm Starting This Journal"
 date: 2026-10-19 17:00:00 +0500
-categories: [Journey]
+categories: [Daily Log, Getting Started]
 tags: [soc, learning]
 ---
 

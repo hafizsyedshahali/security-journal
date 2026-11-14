@@ -1,7 +1,7 @@
 ---
 title: "Endpoint Security, Part 6: How Attackers Abuse IP, ICMP, TCP and UDP"
 date: 2026-11-02 21:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Endpoint Security]
 tags: [cybersecurity, icmp, dos, ddos, amplification, spoofing, session-hijacking, tcp, syn-flood, udp]
 mermaid: true
 ---

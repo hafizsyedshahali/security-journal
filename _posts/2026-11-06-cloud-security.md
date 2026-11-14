@@ -1,7 +1,7 @@
 ---
 title: "Network Defense, Part 4: Cloud Security"
 date: 2026-11-06 21:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Network Defense]
 tags: [cybersecurity, cloud-security, virtualization, csa, shared-responsibility, vm-sprawl]
 ---
 

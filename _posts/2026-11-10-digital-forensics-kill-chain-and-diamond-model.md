@@ -1,7 +1,7 @@
 ---
 title: "Cyber Threat Management, Part 6: Digital Forensics, the Cyber Kill Chain and the Diamond Model"
 date: 2026-11-10 21:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Cyber Threat Management]
 tags: [cybersecurity, digital-forensics, chain-of-custody, mitre-attack, cyber-kill-chain, diamond-model, incident-analysis]
 ---
 

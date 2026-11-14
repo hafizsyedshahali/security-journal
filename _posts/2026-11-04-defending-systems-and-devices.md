@@ -1,7 +1,7 @@
 ---
 title: "Endpoint Security, Part 11: Defending Systems and Devices"
 date: 2026-11-04 18:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Endpoint Security]
 tags: [cybersecurity, endpoint-protection, patch-management, hids, host-firewall, iptables, macos-security, application-security]
 ---
 

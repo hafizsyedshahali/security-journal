@@ -1,7 +1,7 @@
 ---
 title: "AWS Cloud Basics, Part 2: Security, Networking, Storage and Monitoring"
 date: 2026-10-29 21:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Cloud]
 tags: [cloud, aws, vpc, s3, cloudtrail, security]
 ---
 

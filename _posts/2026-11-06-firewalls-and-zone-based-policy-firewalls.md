@@ -1,7 +1,7 @@
 ---
 title: "Network Defense, Part 3: Firewalls and Zone-Based Policy Firewalls"
 date: 2026-11-06 14:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Network Defense]
 tags: [cybersecurity, firewalls, zpf, dmz, network-design, cisco-ios]
 ---
 

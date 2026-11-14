@@ -1,7 +1,7 @@
 ---
 title: "From One Security Header to an A: Hardening My Portfolio"
 date: 2026-10-28 13:00:00 +0500
-categories: [Hands-on, Web Security]
+categories: [Daily Log, Projects]
 tags: [security-headers, csp, hsts, gitleaks, secrets, nextjs, git]
 ---
 

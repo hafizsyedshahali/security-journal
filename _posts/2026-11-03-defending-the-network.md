@@ -1,7 +1,7 @@
 ---
 title: "Endpoint Security, Part 8: Defending the Network"
 date: 2026-11-03 21:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Endpoint Security]
 tags: [cybersecurity, network-defense, wireless-security, wpa3, firewalls, dmz, ids, ips, acl, netflow, syslog, aaa, radius, tacacs]
 mermaid: true
 ---

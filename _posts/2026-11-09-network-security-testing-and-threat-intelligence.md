@@ -1,7 +1,7 @@
 ---
 title: "Cyber Threat Management, Part 3: Network Security Testing and Threat Intelligence"
 date: 2026-11-09 14:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Cyber Threat Management]
 tags: [cybersecurity, vulnerability-scanning, nmap, penetration-testing, siem, soar, threat-intelligence, mitre]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Subnetting, Step by Step"
 date: 2026-10-23 22:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Networking]
 tags: [networking, ipv4, subnetting, cidr]
 ---
 

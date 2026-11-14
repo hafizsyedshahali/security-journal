@@ -1,7 +1,7 @@
 ---
 title: "Network Defense, Part 5: Cryptography, Hashing and Hiding Data"
 date: 2026-11-07 14:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Network Defense]
 tags: [cybersecurity, cryptography, encryption, aes, rsa, diffie-hellman, hashing, hmac, salting, steganography]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Endpoint Security, Part 4: Application, Email and Browser Attacks"
 date: 2026-11-01 21:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Endpoint Security]
 tags: [cybersecurity, application-security, xss, sql-injection, buffer-overflow, csrf, phishing, supply-chain]
 ---
 

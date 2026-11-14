@@ -1,7 +1,7 @@
 ---
 title: "Cyber Threat Management, Part 2: Security Management Frameworks"
 date: 2026-11-08 21:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Cyber Threat Management]
 tags: [cybersecurity, iso-27001, iso-27002, nice-framework, cis-controls, cloud-controls-matrix, frameworks]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Cybersecurity Foundations, Part 2: Malware, Social Engineering and Common Attacks"
 date: 2026-10-30 21:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Introduction to Cybersecurity]
 tags: [cybersecurity, malware, social-engineering, ddos, passwords]
 ---
 

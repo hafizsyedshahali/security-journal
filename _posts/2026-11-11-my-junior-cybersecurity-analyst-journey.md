@@ -1,7 +1,7 @@
 ---
 title: "Looking Back: My Junior Cybersecurity Analyst Journey So Far"
 date: 2026-11-11 21:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Getting Started]
 tags: [cybersecurity, career-change, learning-journey, soc, reflection]
 pin: true
 ---

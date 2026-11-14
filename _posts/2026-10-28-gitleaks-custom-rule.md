@@ -1,7 +1,7 @@
 ---
 title: "My Secret Scanner Missed a Real Password, So I Wrote a Rule That Catches It"
 date: 2026-10-28 19:00:00 +0500
-categories: [Hands-on, DevSecOps]
+categories: [Daily Log, Projects]
 tags: [gitleaks, secrets, detection-engineering, github-actions, semgrep, ci-cd]
 ---
 

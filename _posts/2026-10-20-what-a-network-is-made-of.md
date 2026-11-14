@@ -1,7 +1,7 @@
 ---
 title: "What a Network Is Made Of"
 date: 2026-10-20 22:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Networking]
 tags: [networking, lan, wan, network-design]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "How Routers Decide Where Packets Go"
 date: 2026-10-24 22:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Networking]
 tags: [networking, routing, default-gateway, nat]
 ---
 

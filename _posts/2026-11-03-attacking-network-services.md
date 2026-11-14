@@ -1,7 +1,7 @@
 ---
 title: "Endpoint Security, Part 7: Attacks on ARP, DNS, DHCP, Web and Email"
 date: 2026-11-03 14:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Endpoint Security]
 tags: [cybersecurity, arp-poisoning, dns-attacks, dns-tunneling, dhcp-spoofing, http, email-security, sql-injection]
 mermaid: true
 ---

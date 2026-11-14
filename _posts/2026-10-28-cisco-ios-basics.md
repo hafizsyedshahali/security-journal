@@ -1,7 +1,7 @@
 ---
 title: "First Steps with Cisco IOS: Configuring and Securing a Small Network"
 date: 2026-10-28 11:30:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Networking]
 tags: [networking, cisco-ios, icmp, ping, traceroute]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Endpoint Security, Part 1: Threats, Vulnerabilities and Where Attacks Land"
 date: 2026-10-31 14:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Endpoint Security]
 tags: [cybersecurity, endpoint-security, threats, vulnerabilities, apt, rootkits, threat-intelligence]
 ---
 

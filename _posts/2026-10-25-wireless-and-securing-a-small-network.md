@@ -1,7 +1,7 @@
 ---
 title: "Wireless and Securing a Small Network"
 date: 2026-10-25 22:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Networking]
 tags: [networking, wireless, wpa3, network-security]
 ---
 

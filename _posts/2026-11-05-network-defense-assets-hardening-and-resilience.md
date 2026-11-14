@@ -1,7 +1,7 @@
 ---
 title: "Network Defense, Part 1: Assets, Defense in Depth, Hardening and Resilience"
 date: 2026-11-05 14:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Network Defense]
 tags: [cybersecurity, network-defense, asset-management, defense-in-depth, hardening, high-availability, iot]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Cyber Threat Management, Part 7: Incident Response and Disaster Recovery"
 date: 2026-11-11 14:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Cyber Threat Management]
 tags: [cybersecurity, incident-response, nist, csirt, disaster-recovery, business-continuity, rto, rpo]
 ---
 

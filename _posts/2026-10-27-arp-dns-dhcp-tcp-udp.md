@@ -1,7 +1,7 @@
 ---
 title: "How Devices Find Each Other: ARP, DNS, DHCP, TCP and UDP"
 date: 2026-10-27 22:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Networking]
 tags: [networking, arp, dns, dhcp, tcp, udp]
 ---
 

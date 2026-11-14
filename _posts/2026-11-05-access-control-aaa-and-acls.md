@@ -1,7 +1,7 @@
 ---
 title: "Network Defense, Part 2: Access Control, AAA and ACLs"
 date: 2026-11-05 21:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Network Defense]
 tags: [cybersecurity, access-control, aaa, zero-trust, mfa, rbac, acl, wildcard-mask, cisco-ios]
 ---
 

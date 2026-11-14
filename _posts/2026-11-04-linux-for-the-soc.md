@@ -1,7 +1,7 @@
 ---
 title: "Endpoint Security, Part 10: Linux for the SOC"
 date: 2026-11-04 14:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Endpoint Security]
 tags: [cybersecurity, linux, bash, linux-logs, file-permissions, hardening, rootkits]
 ---
 

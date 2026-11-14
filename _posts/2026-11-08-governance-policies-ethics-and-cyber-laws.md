@@ -1,7 +1,7 @@
 ---
 title: "Cyber Threat Management, Part 1: Governance, Policies, Ethics and Cyber Laws"
 date: 2026-11-08 14:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Cyber Threat Management]
 tags: [cybersecurity, governance, data-roles, security-policies, ethics, cyber-law, gdpr, compliance]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Cyber Threat Management, Part 5: Secure Device Management, Risk and Security Controls"
 date: 2026-11-10 14:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Cyber Threat Management]
 tags: [cybersecurity, risk-management, vulnerability-management, patch-management, security-controls, compliance]
 ---
 

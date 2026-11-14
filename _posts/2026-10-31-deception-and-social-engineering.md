@@ -1,7 +1,7 @@
 ---
 title: "Endpoint Security, Part 2: Deception and Social Engineering"
 date: 2026-10-31 21:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Endpoint Security]
 tags: [cybersecurity, social-engineering, phishing, deception, security-awareness]
 ---
 

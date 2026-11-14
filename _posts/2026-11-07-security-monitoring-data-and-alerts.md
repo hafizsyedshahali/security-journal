@@ -1,7 +1,7 @@
 ---
 title: "Network Defense, Part 6: Security Monitoring Data, Logs and Alerts"
 date: 2026-11-07 21:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Network Defense]
 tags: [cybersecurity, security-monitoring, syslog, siem, security-onion, snort, zeek, alert-triage]
 ---
 

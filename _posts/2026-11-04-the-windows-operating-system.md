@@ -1,7 +1,7 @@
 ---
 title: "Endpoint Security, Part 9: The Windows Operating System"
 date: 2026-11-04 11:00:00 +0500
-categories: [Daily Log]
+categories: [Daily Log, Endpoint Security]
 tags: [cybersecurity, windows, registry, event-viewer, ntfs, boot-process]
 ---
 
