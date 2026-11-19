@@ -400,9 +400,10 @@ input:focus-visible {
 }
 
 .series-nav__links a {
-  display: inline-flex;
+  display: flex;
+  flex: 1 1 14rem;
   flex-direction: column;
-  max-width: 100%;
+  min-width: 0;
   color: var(--t-ink);
   text-decoration: none;
   border-bottom: 0;
