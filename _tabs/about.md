@@ -4,26 +4,23 @@ icon: fas fa-info-circle
 order: 6
 ---
 
-Hi, I'm **Hafiz Syed Shah Ali**, a Computer Science graduate from Lahore, Pakistan, moving from AI automation into cybersecurity. My goal is to become a **SOC Engineer**.
+I'm **Hafiz Syed Shah Ali**, an AI Engineer from Lahore, Pakistan, focused on SOC analysis and security automation: alert triage, log analysis and threat intelligence enrichment.
 
-## Where I'm coming from
+## What I write here
 
-For the past two years I've worked on automation and data: building workflows in Zapier and n8n, data pipelines in Databricks, dashboards in Power BI, and handling information security tasks across business systems. I've also completed more than ten freelance projects on Upwork.
+Regular technical posts on networking, endpoint and network defense, cloud security, threat management and SOC work. Each post explains one topic in my own words, with the logs, commands and questions that matter during an investigation.
 
-That background is exactly why I'm aiming for SOC *engineering* rather than only analysis. Security operations teams deal with huge numbers of alerts and a lot of repetitive work, like enriching indicators, checking file hashes, opening tickets and isolating machines. That's the kind of work automation does well, and it's where I want to combine what I already know with what I'm learning.
+New here? The [Start here](../learning-path/) page lists every post in order.
 
-## What this journal is
+## What's behind it
 
-This is my public learning log. I study from structured courses, take handwritten notes, and turn them into a post here, usually twice a day. Writing each topic out in my own words is how I make sure I actually understand it, not just that I watched the video.
-
-So far it covers networking, cloud basics, and Cisco's full Junior Cybersecurity Analyst Career Path. The [Learning Path](../learning-path/) page lists every post in order.
-
-## What's next
-
-- Hands-on practice with TryHackMe's SOC Level 1 path
-- Building out my home lab with real security tools
-- Security automation projects, shared on GitHub
+- **Cisco Networking Academy:** I completed the Junior Cybersecurity Analyst Career Path (all six courses).
+- **TryHackMe:** I completed the SOC Level 1 and SOC Level 2 learning paths (Nov 2026). In these hands-on labs I worked with Splunk, Elastic, Wireshark, Snort, Zeek, Sigma, YARA, MISP, OpenCTI and Wazuh.
+- **Security automation:** an [n8n workflow](https://www.shahali.dev/projects/suspicious-login-detection), built on an n8n community template and extended, that enriches login events and sends a Slack alert with a HIGH, MEDIUM or LOW severity; and the [automatic security checks](https://www.shahali.dev/projects/security-ci-pipeline) that run on every change to my own site.
 
 ## Get in touch
 
-I'm open to SOC and security automation roles, remote or with relocation. The easiest way to reach me is on [LinkedIn](https://www.linkedin.com/in/hafizsyedshahali). You can also see my work on [GitHub](https://github.com/hafizsyedshahali) and my portfolio at [shahali.dev](https://shahali.dev).
+- Portfolio: [shahali.dev](https://www.shahali.dev)
+- [LinkedIn](https://www.linkedin.com/in/hafizsyedshahali)
+- [GitHub](https://github.com/hafizsyedshahali)
+- Email: [hello@shahali.dev](mailto:hello@shahali.dev)
