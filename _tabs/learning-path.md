@@ -1,10 +1,10 @@
 ---
-title: Learning Path
+title: Start here
 icon: fas fa-route
 order: 1
 ---
 
-This journal follows my move from AI automation into cybersecurity, with the goal of becoming a SOC Engineer. Every post is written from my own study notes.
+This journal covers networking, cloud, endpoint and network defense, threat management and SOC work. Every post is written from my own notes.
 
 If you're new here, start with the first post and follow the series in order. Each one builds on the one before it.
 
