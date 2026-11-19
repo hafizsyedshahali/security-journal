@@ -1,5 +1,6 @@
 ---
 title: "Looking Back: Six Cisco Courses, From Networking to Incident Response"
+description: "A look back at the six courses of Cisco's Junior Cybersecurity Analyst Career Path: what they covered, how I studied, what clicked and what was hard."
 date: 2026-11-11 21:00:00 +0500
 categories: [Daily Log, Getting Started]
 tags: [cybersecurity, cisco, soc, reflection]

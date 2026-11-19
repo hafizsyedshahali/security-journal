@@ -1,5 +1,6 @@
 ---
 title: "Network Defense, Part 5: Cryptography, Hashing and Hiding Data"
+description: "How cryptography fits together: symmetric and asymmetric encryption, Diffie-Hellman, hiding data, hashing for integrity, and salted passwords."
 date: 2026-11-07 14:00:00 +0500
 categories: [Daily Log, Network Defense]
 tags: [cybersecurity, cryptography, encryption, aes, rsa, diffie-hellman, hashing, hmac, salting, steganography]

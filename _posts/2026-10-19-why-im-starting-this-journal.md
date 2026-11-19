@@ -1,5 +1,6 @@
 ---
 title: "Why I'm Starting This Journal"
+description: "Why this journal exists: three Cisco courses done, first checks of auth.log, Windows Event ID 4625 and Wireshark, and a plan for regular posts."
 date: 2026-10-19 17:00:00 +0500
 categories: [Daily Log, Getting Started]
 tags: [soc, learning]

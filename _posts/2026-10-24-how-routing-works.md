@@ -1,5 +1,6 @@
 ---
 title: "How Routers Decide Where Packets Go"
+description: "How a laptop decides if traffic stays local, how a router reads its routing table, default routes, longest prefix match, NAT, and testing the path."
 date: 2026-10-24 22:00:00 +0500
 categories: [Daily Log, Networking]
 tags: [networking, routing, default-gateway, nat]

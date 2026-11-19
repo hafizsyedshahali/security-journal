@@ -1,5 +1,6 @@
 ---
 title: "The OSI and TCP/IP Models"
+description: "The OSI and TCP/IP models layer by layer, how encapsulation wraps data, and how to use the layers to troubleshoot a network problem."
 date: 2026-10-21 22:00:00 +0500
 categories: [Daily Log, Networking]
 tags: [networking, osi-model, tcp-ip, encapsulation]

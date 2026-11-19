@@ -1,5 +1,6 @@
 ---
 title: "How Devices Find Each Other: ARP, DNS, DHCP, TCP and UDP"
+description: "The services behind every connection: ARP maps IP to MAC, DNS maps names to IPs, DHCP hands out addresses, plus TCP vs UDP and ports."
 date: 2026-10-27 22:00:00 +0500
 categories: [Daily Log, Networking]
 tags: [networking, arp, dns, dhcp, tcp, udp]

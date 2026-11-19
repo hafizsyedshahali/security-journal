@@ -1,5 +1,6 @@
 ---
 title: "Endpoint Security, Part 2: Deception and Social Engineering"
+description: "Why social engineering works on careful people: common types, the seven tactics attackers use, physical tricks, warning signs and defenses."
 date: 2026-10-31 21:00:00 +0500
 categories: [Daily Log, Endpoint Security]
 tags: [cybersecurity, social-engineering, phishing, deception, security-awareness]

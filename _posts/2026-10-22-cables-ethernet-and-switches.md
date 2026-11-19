@@ -1,5 +1,6 @@
 ---
 title: "Cables, Ethernet and How Switches Work"
+description: "The physical and data link layers: network media, Ethernet, MAC addresses, duplex, and how a switch learns where to send each frame."
 date: 2026-10-22 22:00:00 +0500
 categories: [Daily Log, Networking]
 tags: [networking, ethernet, mac-address, switching]

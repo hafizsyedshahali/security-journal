@@ -1,5 +1,6 @@
 ---
 title: "Endpoint Security, Part 3: Cyber Attacks, Wireless and Mobile Attacks"
+description: "Attacks on the technology itself: logic bombs, DNS and Layer 2 attacks, man-in-the-middle, zero-days, keyloggers, wireless and mobile attacks."
 date: 2026-11-01 14:00:00 +0500
 categories: [Daily Log, Endpoint Security]
 tags: [cybersecurity, logic-bomb, dns, layer-2, mitm, zero-day, keylogger, wireless, bluetooth, mobile-security]

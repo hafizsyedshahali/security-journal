@@ -1,5 +1,6 @@
 ---
 title: "Network Defense, Part 3: Firewalls and Zone-Based Policy Firewalls"
+description: "Firewall types, where firewalls sit in network design, and how a Cisco zone-based policy firewall works and is configured step by step."
 date: 2026-11-06 14:00:00 +0500
 categories: [Daily Log, Network Defense]
 tags: [cybersecurity, firewalls, zpf, dmz, network-design, cisco-ios]

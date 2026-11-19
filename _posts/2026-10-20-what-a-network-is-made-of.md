@@ -1,5 +1,6 @@
 ---
 title: "What a Network Is Made Of"
+description: "The building blocks of a network, who serves whom, common topologies, layered network design, and what makes a network reliable."
 date: 2026-10-20 22:00:00 +0500
 categories: [Daily Log, Networking]
 tags: [networking, lan, wan, network-design]

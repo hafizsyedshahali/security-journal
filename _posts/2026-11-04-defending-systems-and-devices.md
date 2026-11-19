@@ -1,5 +1,6 @@
 ---
 title: "Endpoint Security, Part 11: Defending Systems and Devices"
+description: "Protecting a single device: OS hardening, patch management, endpoint tools, encryption and boot integrity, host firewalls and HIDS."
 date: 2026-11-04 18:00:00 +0500
 categories: [Daily Log, Endpoint Security]
 tags: [cybersecurity, endpoint-protection, patch-management, hids, host-firewall, iptables, macos-security, application-security]

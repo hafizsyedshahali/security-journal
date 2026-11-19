@@ -1,5 +1,6 @@
 ---
 title: "Endpoint Security, Part 10: Linux for the SOC"
+description: "Linux for the SOC: the shell, config as text files, running servers safely, the file system, processes, Linux malware and rootkits, and pipes."
 date: 2026-11-04 14:00:00 +0500
 categories: [Daily Log, Endpoint Security]
 tags: [cybersecurity, linux, bash, linux-logs, file-permissions, hardening, rootkits]

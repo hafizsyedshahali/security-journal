@@ -1,5 +1,6 @@
 ---
 title: "Cyber Threat Management, Part 7: Incident Response and Disaster Recovery"
+description: "Incident response and disaster recovery: building an IR capability, stakeholders, the NIST lifecycle, evidence retention, reporting, RTO and RPO."
 date: 2026-11-11 14:00:00 +0500
 categories: [Daily Log, Cyber Threat Management]
 tags: [cybersecurity, incident-response, nist, csirt, disaster-recovery, business-continuity, rto, rpo]

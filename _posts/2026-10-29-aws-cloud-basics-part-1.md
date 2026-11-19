@@ -1,5 +1,6 @@
 ---
 title: "AWS Cloud Basics, Part 1: How AWS Started, EC2, Lambda and SQS"
+description: "AWS Cloud Practitioner Essentials, part 1: how AWS started, fault tolerance, multi-tenancy, shared responsibility, EC2, Lambda and SQS."
 date: 2026-10-29 12:00:00 +0500
 categories: [Daily Log, Cloud]
 tags: [cloud, aws, ec2, lambda, sqs]

@@ -1,5 +1,6 @@
 ---
 title: "Endpoint Security, Part 1: Threats, Vulnerabilities and Where Attacks Land"
+description: "The eight types of threats, internal vs external threats, where attacks land, APTs, backdoors and rootkits, and threat intelligence."
 date: 2026-10-31 14:00:00 +0500
 categories: [Daily Log, Endpoint Security]
 tags: [cybersecurity, endpoint-security, threats, vulnerabilities, apt, rootkits, threat-intelligence]

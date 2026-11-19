@@ -1,5 +1,6 @@
 ---
 title: "Network Defense, Part 6: Security Monitoring Data, Logs and Alerts"
+description: "What makes monitoring hard, types of security data, end device and network logs, Security Onion, Snort rule structure and alert evaluation."
 date: 2026-11-07 21:00:00 +0500
 categories: [Daily Log, Network Defense]
 tags: [cybersecurity, security-monitoring, syslog, siem, security-onion, snort, zeek, alert-triage]

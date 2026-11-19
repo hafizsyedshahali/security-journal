@@ -1,5 +1,6 @@
 ---
 title: "Endpoint Security, Part 4: Application, Email and Browser Attacks"
+description: "Application attacks that trust bad input (XSS, code injection, buffer overflows, RCE), plus email and browser attacks and their defenses."
 date: 2026-11-01 21:00:00 +0500
 categories: [Daily Log, Endpoint Security]
 tags: [cybersecurity, application-security, xss, sql-injection, buffer-overflow, csrf, phishing, supply-chain]

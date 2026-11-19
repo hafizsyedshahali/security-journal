@@ -1,5 +1,6 @@
 ---
 title: "Cyber Threat Management, Part 2: Security Management Frameworks"
+description: "Why security frameworks exist, and how ISO 27001/27002, the NICE framework, the CIS Controls and the Cloud Controls Matrix compare."
 date: 2026-11-08 21:00:00 +0500
 categories: [Daily Log, Cyber Threat Management]
 tags: [cybersecurity, iso-27001, iso-27002, nice-framework, cis-controls, cloud-controls-matrix, frameworks]
