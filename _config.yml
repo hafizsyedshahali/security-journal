@@ -229,3 +229,7 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+# Atom feed (/feed.xml, read by shahali.dev's Journal). Used by the assets/feed.xml override.
+feed:
+  posts_limit: 20
