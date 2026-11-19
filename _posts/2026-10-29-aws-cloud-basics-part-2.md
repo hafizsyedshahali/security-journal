@@ -63,7 +63,7 @@ AWS also has managed databases, like **RDS** for relational databases and **Dyna
 
 ## Monitoring, compliance and governance
 
-This was the most important module for me as someone moving into SOC work.
+This was the most important module for SOC work.
 
 ### AWS CloudTrail
 

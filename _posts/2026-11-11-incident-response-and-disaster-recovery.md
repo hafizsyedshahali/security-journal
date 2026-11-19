@@ -166,4 +166,4 @@ The SOC lives in the detection and analysis phase, and is usually the first to r
 
 ## Next
 
-That completes Cyber Threat Management, and with it the full Junior Cybersecurity Analyst path. Tonight I'm writing a reflection on the whole journey so far.
+That completes Cyber Threat Management, and with it the full Junior Cybersecurity Analyst path. Tonight I'm writing a reflection on the whole path so far.

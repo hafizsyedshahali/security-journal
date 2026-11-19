@@ -7,7 +7,7 @@ tags: [soc, learning]
 
 I work in AI automation, and I'm now moving into SOC engineering. This journal is where I will write down what I learn along the way.
 
-My study path is A+, then Network+, then Cloud+, then Security+.
+My study path: hardware and IT basics, then networking, then cloud, then security.
 
 So far I have finished three Cisco courses: Computer Hardware Basics, Operating Systems Basics and Networking Basics.
 
@@ -18,4 +18,4 @@ I have also done a few small labs:
 - Looked at Windows Event ID 4625
 - Used Wireshark
 
-I will post here every night about what I studied that day. Some posts will be short and some will be longer. The goal is to keep going and have a clear record of my progress.
+I will post here regularly about what I study. Some posts will be short and some will be longer. The goal is to keep going and keep a clear written record of each topic.

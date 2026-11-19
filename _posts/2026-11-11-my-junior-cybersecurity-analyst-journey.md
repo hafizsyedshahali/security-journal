@@ -1,12 +1,12 @@
 ---
-title: "Looking Back: My Junior Cybersecurity Analyst Journey So Far"
+title: "Looking Back: Six Cisco Courses, From Networking to Incident Response"
 date: 2026-11-11 21:00:00 +0500
 categories: [Daily Log, Getting Started]
-tags: [cybersecurity, career-change, learning-journey, soc, reflection]
+tags: [cybersecurity, cisco, soc, reflection]
 pin: true
 ---
 
-A few weeks ago I started this journal with one goal: write every day about what I study as I move from AI automation into cybersecurity. I've now finished every course in Cisco's Junior Cybersecurity Analyst Career Path, and with the last posts from it written up, this felt like the right moment to stop and look back before moving on to the next stage.
+A few weeks ago I started this journal with one goal: write every day about what I study in cybersecurity. I've now finished every course in Cisco's Junior Cybersecurity Analyst Career Path, and with the last posts from it written up, this felt like the right moment to stop and look back before moving on to the next stage.
 
 This post isn't about a new topic. It's about how it went, what I learned, and what comes next.
 
@@ -14,7 +14,7 @@ This post isn't about a new topic. It's about how it went, what I learned, and w
 
 My background is in AI automation and data. I've built workflows in Zapier and n8n, pipelines in Databricks, dashboards in Power BI, and worked on information security tasks across business systems. I knew a fair amount about building things. I knew much less about how they get attacked and defended.
 
-The goal is a **SOC Engineer** role, not just an analyst role, because I want to combine security with what I already do well: automation. My mentor, who leads information security at a large company, gave me a clear order to follow (hardware and IT basics, then networking, then cloud, then security) and two pieces of advice that shaped all of this: write a blog post every night about what I studied, and keep applying for jobs even when the odds feel low.
+I focus on SOC work and security automation, because I want to combine security with what I already do well: automation. My mentor, who leads information security at a large company, gave me a clear order to follow (hardware and IT basics, then networking, then cloud, then security) and one piece of advice that shaped all of this: write a blog post every night about what I studied.
 
 ## What I covered
 
@@ -50,20 +50,18 @@ Some parts took real effort. Subnetting and wildcard masks needed practice befor
 
 ## Where my automation background fits
 
-The more I learned, the more I saw where automation fits in. SOCs deal with huge numbers of alerts, and much of the work is repetitive: enriching an IP address with threat intelligence, checking a file hash, opening a ticket, isolating a machine. That's exactly what SOAR platforms and automation are for, and it's the kind of work I've been doing for years in other areas. That's the direction I want to grow in: security operations plus automation.
+The more I learned, the more I saw where automation fits in. SOCs deal with huge numbers of alerts, and much of the work is repetitive: enriching an IP address with threat intelligence, checking a file hash, opening a ticket, isolating a machine. That's exactly what SOAR platforms and automation are for, and it's the kind of work I already do in other areas. That's where I focus: security operations plus automation.
 
 ## What's next
 
-The courses gave me the foundation. Now I need hands-on practice:
+The courses gave me the foundation. The next step was hands-on practice:
 
-1. **TryHackMe SOC Level 1:** practical work with SIEMs, log analysis, network traffic analysis, phishing analysis and incident response, in realistic labs
+1. **TryHackMe SOC Level 1 and SOC Level 2 learning paths:** practical work with SIEMs, log analysis, network traffic analysis, phishing analysis and incident response, in realistic labs (completed Nov 2026)
 2. **Building out my home lab:** more practice with real tools, logs and detections
 3. **Security automation projects:** applying my automation background to security tasks and sharing them on GitHub
-4. **Keep applying,** as my mentor advised, and keep improving with every application and interview
-5. **A certification exam:** I'm still deciding which one makes the most sense as the next step
 
-And I'll keep writing here every day.
+And I'll keep writing here.
 
 ## A thank you
 
-Thanks to my mentor for the direction and for pushing me to write publicly, and to everyone who has read along. If you're also moving into cybersecurity from another field: start with the fundamentals, write down what you learn, and don't worry about how slow it feels. It adds up.
+Thanks to my mentor for the direction and for pushing me to write publicly, and to everyone who has read along. If you're coming into cybersecurity from another field: start with the fundamentals, write down what you learn, and don't worry about how slow it feels. It adds up.
