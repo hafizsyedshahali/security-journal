@@ -1,0 +1,46 @@
+# Multi-part series, in reading order. Each entry is a post slug (the file name without the date).
+# _plugins/series-nav.rb adds _includes/series-nav.html ("Part X of Y" with previous/next) to these posts.
+
+- title: AWS Cloud Basics
+  posts:
+    - aws-cloud-basics-part-1
+    - aws-cloud-basics-part-2
+
+- title: Cybersecurity Foundations
+  posts:
+    - cybersecurity-foundations-part-1
+    - cybersecurity-foundations-part-2
+
+- title: Endpoint Security
+  posts:
+    - threats-vulnerabilities-and-where-attacks-land
+    - deception-and-social-engineering
+    - cyber-attacks-and-wireless-mobile-attacks
+    - application-email-and-other-attacks
+    - securing-networks-and-the-ip-header
+    - ip-icmp-tcp-and-udp-attacks
+    - attacking-network-services
+    - defending-the-network
+    - the-windows-operating-system
+    - linux-for-the-soc
+    - defending-systems-and-devices
+    - cybersecurity-principles-practices-and-processes
+
+- title: Network Defense
+  posts:
+    - network-defense-assets-hardening-and-resilience
+    - access-control-aaa-and-acls
+    - firewalls-and-zone-based-policy-firewalls
+    - cloud-security
+    - cryptography
+    - security-monitoring-data-and-alerts
+
+- title: Cyber Threat Management
+  posts:
+    - governance-policies-ethics-and-cyber-laws
+    - security-management-frameworks
+    - network-security-testing-and-threat-intelligence
+    - endpoint-vulnerability-assessment-and-cvss
+    - secure-device-management-risk-and-controls
+    - digital-forensics-kill-chain-and-diamond-model
+    - incident-response-and-disaster-recovery
