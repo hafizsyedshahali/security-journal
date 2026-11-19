@@ -1,0 +1,427 @@
+---
+---
+
+// Trace look for Chirpy (same palette as shahali.dev: frost #EEF2F2, slate #13232B, teal #21707E, glow #5FD3E0).
+// The first two statements are jekyll-theme-chirpy 7.6.0's own assets/css/jekyll-theme-chirpy.scss, plus
+// the two font variables Chirpy exposes. Everything after them only sets Chirpy's CSS custom properties or
+// adds small rules. When upgrading Chirpy, compare those two statements with the new theme file and check
+// the custom property names in _sass/themes/_light.scss and _dark.scss.
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}',
+  $font-family-base: ('Mona Sans', system-ui, -apple-system, 'Segoe UI', sans-serif),
+  $font-family-heading: ('Mona Sans', system-ui, -apple-system, 'Segoe UI', sans-serif)
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* ---------- Mona Sans (self-hosted, SIL OFL 1.1: /assets/fonts/mona-sans/OFL.txt) ---------- */
+
+@font-face {
+  font-family: 'Mona Sans';
+  src: url('{{ "/assets/fonts/mona-sans/MonaSansVF.woff2" | relative_url }}') format('woff2');
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mona Sans';
+  src: url('{{ "/assets/fonts/mona-sans/MonaSansVF-Italic.woff2" | relative_url }}') format('woff2');
+  font-weight: 200 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ---------- Palette ---------- */
+
+$frost: #eef2f2;
+$slate: #13232b;
+$teal: #21707e;
+$glow: #5fd3e0;
+
+@mixin trace-light {
+  --t-ground: #{$frost};
+  --t-ink: #{$slate};
+  --t-accent: #{$teal};
+  --t-muted: color-mix(in srgb, #{$slate} 76%, #{$frost});
+  --t-line: color-mix(in srgb, #{$slate} 16%, #{$frost});
+  --t-wash: color-mix(in srgb, #{$slate} 4%, #{$frost});
+  --t-band: color-mix(in srgb, #{$slate} 7%, #{$frost});
+  --t-accent-wash: color-mix(in srgb, #{$teal} 10%, #{$frost});
+  --t-code-string: color-mix(in srgb, #{$teal} 55%, #{$slate});
+  --t-code-attr: color-mix(in srgb, #{$teal} 78%, #{$slate});
+  --t-code-comment: color-mix(in srgb, #{$slate} 64%, #{$frost});
+
+  --main-bg: var(--t-ground);
+  --mask-bg: color-mix(in srgb, #{$slate} 30%, #{$frost});
+  --main-border-color: var(--t-line);
+  --text-color: color-mix(in srgb, #{$slate} 92%, #{$frost});
+  --text-muted-color: var(--t-muted);
+  --heading-color: var(--t-ink);
+  --label-color: var(--t-muted);
+  --blockquote-border-color: color-mix(in srgb, #{$teal} 45%, #{$frost});
+  --blockquote-text-color: var(--t-muted);
+  --link-color: var(--t-accent);
+  --link-underline-color: color-mix(in srgb, #{$teal} 35%, #{$frost});
+  --button-bg: var(--t-ground);
+  --btn-border-color: var(--t-line);
+  --btn-backtotop-color: var(--t-ink);
+  --btn-backtotop-border-color: var(--t-line);
+  --checkbox-checked-color: var(--t-accent);
+  --menu-bg: var(--t-ground);
+  --menu-border-color: var(--t-line);
+  --menu-highlight-bg: var(--t-accent-wash);
+
+  --site-title-color: var(--t-ink);
+  --site-subtitle-color: var(--t-muted);
+  --sidebar-bg: var(--t-wash);
+  --sidebar-border-color: var(--t-line);
+  --sidebar-muted-color: var(--t-muted);
+  --sidebar-active-color: var(--t-accent);
+  --sidebar-hover-bg: var(--t-accent-wash);
+  --sidebar-btn-bg: var(--t-ground);
+  --sidebar-btn-color: var(--t-muted);
+  --avatar-border-color: var(--t-ground);
+
+  --topbar-bg: color-mix(in srgb, #{$frost} 82%, transparent);
+  --topbar-text-color: var(--t-ink);
+  --search-border-color: var(--t-line);
+  --search-icon-color: var(--t-muted);
+  --input-focus-border-color: var(--t-accent);
+
+  --post-list-text-color: var(--t-muted);
+  --btn-patinator-text-color: var(--t-ink);
+  --btn-paginator-hover-color: var(--t-band);
+
+  --toc-highlight: var(--t-accent);
+  --btn-share-hover-color: var(--t-accent);
+  --card-bg: var(--t-ground);
+  --card-hover-bg: var(--t-band);
+  --card-shadow:
+    0 0 0 1px var(--t-line), 0 1px 2px color-mix(in srgb, #{$slate} 8%, transparent),
+    0 10px 24px -14px color-mix(in srgb, #{$slate} 32%, transparent);
+  --footnote-target-bg: var(--t-accent-wash);
+  --tb-odd-bg: var(--t-wash);
+  --tb-border-color: var(--t-line);
+  --prompt-info-bg: var(--t-accent-wash);
+  --prompt-info-icon-color: var(--t-accent);
+
+  --tag-border: var(--t-line);
+  --tag-shadow: var(--t-line);
+  --tag-hover: var(--t-accent-wash);
+  --search-tag-bg: var(--t-band);
+  --categories-border: var(--t-line);
+  --categories-hover-bg: var(--t-band);
+  --categories-icon-hover-color: var(--t-accent);
+  --timeline-color: var(--t-line);
+  --timeline-node-bg: var(--t-accent);
+
+  --language-border-color: var(--t-line);
+  --highlight-bg-color: var(--t-wash);
+  --highlighter-rouge-color: var(--t-ink);
+  --highlight-lineno-color: var(--t-code-comment);
+  --inline-code-bg: color-mix(in srgb, #{$slate} 7%, #{$frost});
+  --code-color: var(--t-ink);
+  --code-header-text-color: var(--t-muted);
+  --code-header-muted-color: var(--t-line);
+  --code-header-icon-color: var(--t-muted);
+}
+
+@mixin trace-dark {
+  --t-ground: #{$slate};
+  --t-ink: #{$frost};
+  --t-accent: #{$glow};
+  --t-muted: color-mix(in srgb, #{$frost} 72%, #{$slate});
+  --t-line: color-mix(in srgb, #{$frost} 16%, #{$slate});
+  --t-wash: color-mix(in srgb, #{$frost} 4%, #{$slate});
+  --t-band: color-mix(in srgb, #{$frost} 8%, #{$slate});
+  --t-accent-wash: color-mix(in srgb, #{$teal} 28%, #{$slate});
+  --t-code-string: color-mix(in srgb, #{$teal} 45%, #{$frost});
+  --t-code-attr: color-mix(in srgb, #{$glow} 70%, #{$frost});
+  --t-code-comment: color-mix(in srgb, #{$frost} 62%, #{$slate});
+
+  --main-bg: var(--t-ground);
+  --mask-bg: color-mix(in srgb, #{$frost} 20%, #{$slate});
+  --main-border-color: var(--t-line);
+  --text-color: color-mix(in srgb, #{$frost} 88%, #{$slate});
+  --text-muted-color: var(--t-muted);
+  --text-muted-highlight-color: var(--t-ink);
+  --heading-color: var(--t-ink);
+  --label-color: var(--t-muted);
+  --blockquote-border-color: color-mix(in srgb, #{$teal} 70%, #{$slate});
+  --blockquote-text-color: var(--t-muted);
+  --link-color: var(--t-accent);
+  --link-underline-color: color-mix(in srgb, #{$glow} 40%, #{$slate});
+  --button-bg: var(--t-wash);
+  --btn-border-color: var(--t-line);
+  --btn-backtotop-color: var(--t-ink);
+  --btn-backtotop-border-color: var(--t-line);
+  --card-header-bg: var(--t-band);
+  --checkbox-checked-color: var(--t-accent);
+  --menu-bg: var(--t-wash);
+  --menu-border-color: var(--t-line);
+  --menu-highlight-bg: var(--t-accent-wash);
+
+  --site-title-color: var(--t-ink);
+  --site-subtitle-color: var(--t-muted);
+  --sidebar-bg: color-mix(in srgb, #{$frost} 3%, #{$slate});
+  --sidebar-border-color: var(--t-line);
+  --sidebar-muted-color: var(--t-muted);
+  --sidebar-active-color: var(--t-accent);
+  --sidebar-hover-bg: var(--t-accent-wash);
+  --sidebar-btn-bg: var(--t-band);
+  --sidebar-btn-color: var(--t-muted);
+  --avatar-border-color: var(--t-line);
+
+  --topbar-bg: color-mix(in srgb, #{$slate} 82%, transparent);
+  --topbar-text-color: var(--t-ink);
+  --search-border-color: var(--t-line);
+  --search-icon-color: var(--t-muted);
+  --input-focus-border-color: var(--t-accent);
+
+  --post-list-text-color: var(--t-muted);
+  --btn-patinator-text-color: var(--t-ink);
+  --btn-paginator-hover-color: var(--t-band);
+
+  --toc-highlight: var(--t-accent);
+  --toc-popup-border-color: var(--t-line);
+  --btn-share-color: var(--t-muted);
+  --btn-share-hover-color: var(--t-accent);
+  --card-bg: color-mix(in srgb, #{$frost} 6%, #{$slate});
+  --card-hover-bg: var(--t-band);
+  --card-shadow:
+    0 0 0 1px var(--t-line), 0 10px 24px -14px color-mix(in srgb, black 50%, transparent);
+  --footnote-target-bg: var(--t-accent-wash);
+  --tb-odd-bg: var(--t-wash);
+  --tb-even-bg: var(--t-ground);
+  --tb-border-color: var(--t-line);
+  --prompt-info-bg: var(--t-accent-wash);
+  --prompt-info-icon-color: var(--t-accent);
+
+  --tag-border: var(--t-line);
+  --tag-shadow: transparent;
+  --tag-hover: var(--t-accent-wash);
+  --search-tag-bg: var(--t-band);
+  --categories-border: var(--t-line);
+  --categories-hover-bg: var(--t-band);
+  --categories-icon-hover-color: var(--t-accent);
+  --timeline-color: var(--t-line);
+  --timeline-node-bg: var(--t-accent);
+  --timeline-year-dot-color: var(--t-ground);
+
+  --language-border-color: var(--t-line);
+  --highlight-bg-color: color-mix(in srgb, #{$frost} 5%, #{$slate});
+  --highlighter-rouge-color: var(--t-ink);
+  --highlight-lineno-color: var(--t-code-comment);
+  --inline-code-bg: color-mix(in srgb, #{$frost} 9%, #{$slate});
+  --code-color: var(--t-ink);
+  --code-header-text-color: var(--t-muted);
+  --code-header-muted-color: var(--t-line);
+  --code-header-icon-color: var(--t-muted);
+}
+
+/* Code: one shared token map, coloured from the palette variables above. */
+@mixin trace-code {
+  .highlight,
+  .highlight .w {
+    color: var(--t-ink);
+    background-color: var(--highlight-bg-color);
+  }
+
+  .highlight .k, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt,
+  .highlight .kv, .highlight .ow {
+    color: var(--t-accent);
+    font-weight: 600;
+  }
+
+  .highlight .kc, .highlight .l, .highlight .ld, .highlight .m, .highlight .mb, .highlight .mf,
+  .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx, .highlight .bp,
+  .highlight .sb {
+    color: var(--t-accent);
+  }
+
+  .highlight .s, .highlight .sa, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2,
+  .highlight .se, .highlight .sh, .highlight .sx, .highlight .s1, .highlight .ss, .highlight .sr {
+    color: var(--t-code-string);
+  }
+
+  .highlight .na, .highlight .nt, .highlight .py, .highlight .nl {
+    color: var(--t-code-attr);
+  }
+
+  .highlight .nf, .highlight .fm, .highlight .nc, .highlight .nd, .highlight .nb, .highlight .nn,
+  .highlight .no, .highlight .ne, .highlight .ni, .highlight .si {
+    color: var(--t-ink);
+    font-weight: 600;
+  }
+
+  .highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi, .highlight .vm, .highlight .o,
+  .highlight .p {
+    color: var(--t-ink);
+  }
+
+  .highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cp, .highlight .cpf,
+  .highlight .c1, .highlight .cs, .highlight .gl, .highlight .gt {
+    color: var(--t-code-comment);
+    font-style: italic;
+  }
+
+  .highlight .gh, .highlight .gu {
+    color: var(--t-accent);
+    font-weight: 700;
+  }
+
+  .highlight .gi {
+    color: var(--t-ink);
+    background-color: var(--t-accent-wash);
+  }
+
+  .highlight .gd {
+    color: var(--t-muted);
+    background-color: var(--t-band);
+    text-decoration: line-through;
+  }
+
+  .highlight .ge { color: var(--t-ink); font-style: italic; }
+  .highlight .gs { color: var(--t-ink); font-weight: 700; }
+}
+
+/* Same selector shapes as Chirpy's _sass/base/_base.scss, so these win by order. */
+:root[data-bs-theme='light'] {
+  @include trace-light;
+  @include trace-code;
+}
+
+:root[data-bs-theme='dark'] {
+  @include trace-dark;
+  @include trace-code;
+}
+
+:root:not([data-bs-theme]) {
+  @media (prefers-color-scheme: light) {
+    @include trace-light;
+    @include trace-code;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    @include trace-dark;
+    @include trace-code;
+  }
+}
+
+/* ---------- Small rules ---------- */
+
+/* Chirpy hard-codes Lato / Oswald / sans-serif in a few places. */
+.pagination,
+kbd,
+#archives .date.day,
+.tag span,
+#topbar-title {
+  font-family: 'Mona Sans', system-ui, sans-serif;
+}
+
+/* Sidebar: the tagline is a title line, not italic. */
+#sidebar .site-subtitle {
+  font-style: normal !important;
+  font-size: 0.8rem;
+  line-height: 1.45;
+  letter-spacing: 0.01em;
+}
+
+#sidebar .site-title {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+/* Inline code and code blocks. */
+.highlighter-rouge,
+code,
+pre,
+kbd {
+  font-family: ui-monospace, 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace;
+}
+
+div[class^='language-'],
+div[class*=' language-'] {
+  border: 1px solid var(--t-line);
+  box-shadow: none;
+}
+
+:not(pre) > code.highlighter-rouge {
+  color: var(--t-ink);
+}
+
+/* Visible keyboard focus in the accent colour. */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--t-accent);
+  outline-offset: 2px;
+}
+
+/* ---------- Series navigation (_includes/series-nav.html) ---------- */
+
+.series-nav {
+  margin: 0 0 1.75rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--t-line);
+  border-left: 3px solid var(--t-accent);
+  border-radius: 8px;
+  background: var(--t-wash);
+  font-size: 0.95rem;
+}
+
+.series-nav--bottom {
+  margin: 2.5rem 0 0;
+}
+
+.series-nav__label {
+  margin: 0;
+  color: var(--t-muted);
+}
+
+.series-nav__label strong {
+  color: var(--t-ink);
+  font-weight: 650;
+}
+
+.series-nav__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  justify-content: space-between;
+  margin-top: 0.6rem;
+}
+
+.series-nav__links a {
+  display: inline-flex;
+  flex-direction: column;
+  max-width: 100%;
+  color: var(--t-ink);
+  text-decoration: none;
+  border-bottom: 0;
+}
+
+.series-nav__links a span {
+  color: var(--t-accent);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.series-nav__links a:hover {
+  color: var(--t-accent);
+}
+
+.series-nav__links .series-nav__next {
+  margin-left: auto;
+  text-align: right;
+  align-items: flex-end;
+}
