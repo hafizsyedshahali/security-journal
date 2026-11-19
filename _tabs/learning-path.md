@@ -8,7 +8,7 @@ This journal covers networking, cloud, endpoint and network defense, threat mana
 
 If you're new here, start with the first post and follow the series in order. Each one builds on the one before it.
 
-{% assign series = "Getting Started|Networking|Cloud|Introduction to Cybersecurity|Endpoint Security|Network Defense|Cyber Threat Management|Projects" | split: "|" %}
+{% assign series = "Getting Started|Networking|Cloud|Introduction to Cybersecurity|Endpoint Security|Network Defense|Cyber Threat Management|Cyber Security 101|Projects" | split: "|" %}
 
 {% for s in series %}
 {% assign series_posts = site.categories[s] | sort: "date" %}
@@ -22,6 +22,7 @@ If you're new here, start with the first post and follow the series in order. Ea
 {% when "Endpoint Security" %}<p>Cisco's Endpoint Security: threats, attacks on networks and applications, network defenses, and securing Windows and Linux.</p>
 {% when "Network Defense" %}<p>Cisco's Network Defense: defense in depth, access control, ACLs, firewalls, cloud security, cryptography and security monitoring.</p>
 {% when "Cyber Threat Management" %}<p>Cisco's Cyber Threat Management: governance, frameworks, vulnerability assessment, risk, forensics and incident response.</p>
+{% when "Cyber Security 101" %}<p>TryHackMe's Cyber Security 101: hands-on Linux, Windows, networking, web security, offensive tooling and defensive security.</p>
 {% when "Projects" %}<p>Hands-on work: tools, labs and security automation.</p>
 {% endcase %}
 <ol>
