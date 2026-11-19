@@ -1,5 +1,6 @@
 ---
 title: "Endpoint Security, Part 5: Securing Networks, Threat Actors and the IP Header"
+description: "Why networks need protecting, how data leaks, threat vs vulnerability vs risk, how threat actors evolved, and the IPv4 and IPv6 headers."
 date: 2026-11-02 14:00:00 +0500
 categories: [Daily Log, Endpoint Security]
 tags: [cybersecurity, network-security, data-loss, risk, threat-actors, ipv4, ipv6, packet-header]

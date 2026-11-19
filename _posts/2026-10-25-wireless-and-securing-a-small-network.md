@@ -1,5 +1,6 @@
 ---
 title: "Wireless and Securing a Small Network"
+description: "What a home Wi-Fi router really is, how Wi-Fi works, WPA2 and WPA3, a checklist for securing a small network, and how to test it."
 date: 2026-10-25 22:00:00 +0500
 categories: [Daily Log, Networking]
 tags: [networking, wireless, wpa3, network-security]

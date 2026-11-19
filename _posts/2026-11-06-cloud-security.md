@@ -1,5 +1,6 @@
 ---
 title: "Network Defense, Part 4: Cloud Security"
+description: "Cloud security: hypervisors and virtualization, top cloud threats, the CSA's 14 domains, infrastructure, application and data security, VM sprawl."
 date: 2026-11-06 21:00:00 +0500
 categories: [Daily Log, Network Defense]
 tags: [cybersecurity, cloud-security, virtualization, csa, shared-responsibility, vm-sprawl]

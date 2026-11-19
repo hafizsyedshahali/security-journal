@@ -1,5 +1,6 @@
 ---
 title: "Endpoint Security, Part 9: The Windows Operating System"
+description: "Windows through a defender's eyes: weak spots, file systems, alternate data streams, the boot process, services, the registry and monitoring."
 date: 2026-11-04 11:00:00 +0500
 categories: [Daily Log, Endpoint Security]
 tags: [cybersecurity, windows, registry, event-viewer, ntfs, boot-process]

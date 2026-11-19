@@ -1,5 +1,6 @@
 ---
 title: "My Secret Scanner Missed a Real Password, So I Wrote a Rule That Catches It"
+description: "Why gitleaks missed a real app password in my git history, the custom rule I wrote to catch it, how I tested it, and the CI pipeline that runs it."
 date: 2026-10-28 19:00:00 +0500
 categories: [Daily Log, Projects]
 tags: [gitleaks, secrets, detection-engineering, github-actions, semgrep, ci-cd]

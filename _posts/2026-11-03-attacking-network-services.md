@@ -1,5 +1,6 @@
 ---
 title: "Endpoint Security, Part 7: Attacks on ARP, DNS, DHCP, Web and Email"
+description: "How ARP, DNS and DHCP are turned against a network, including DNS tunneling, plus common HTTP exploits, email threats and exposed databases."
 date: 2026-11-03 14:00:00 +0500
 categories: [Daily Log, Endpoint Security]
 tags: [cybersecurity, arp-poisoning, dns-attacks, dns-tunneling, dhcp-spoofing, http, email-security, sql-injection]

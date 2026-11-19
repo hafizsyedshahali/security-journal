@@ -1,5 +1,6 @@
 ---
 title: "From One Security Header to an A: Hardening My Portfolio"
+description: "A security audit of my own portfolio: the headers that took it to an A, why not A+, a secret in the git history, and contact form fixes."
 date: 2026-10-28 13:00:00 +0500
 categories: [Daily Log, Projects]
 tags: [security-headers, csp, hsts, gitleaks, secrets, nextjs, git]

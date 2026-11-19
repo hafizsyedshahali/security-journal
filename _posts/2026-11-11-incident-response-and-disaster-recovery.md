@@ -1,5 +1,6 @@
 ---
 title: "Cyber Threat Management, Part 7: Incident Response and Disaster Recovery"
+description: "Incident response and disaster recovery: building an IR capability, stakeholders, the NIST lifecycle, evidence retention, reporting, RTO and RPO."
 date: 2026-11-11 14:00:00 +0500
 categories: [Daily Log, Cyber Threat Management]
 tags: [cybersecurity, incident-response, nist, csirt, disaster-recovery, business-continuity, rto, rpo]
@@ -166,4 +167,4 @@ The SOC lives in the detection and analysis phase, and is usually the first to r
 
 ## Next
 
-That completes Cyber Threat Management, and with it the full Junior Cybersecurity Analyst path. Tonight I'm writing a reflection on the whole journey so far.
+That completes Cyber Threat Management, and with it the full Junior Cybersecurity Analyst path. Tonight I'm writing a reflection on the whole path so far.

@@ -1,5 +1,6 @@
 ---
 title: "Cybersecurity Foundations, Part 1: Data, Privacy, the McCumber Cube and Attackers"
+description: "Cisco's Introduction to Cybersecurity, part 1: online identity, what leaked data reveals, organizational data, the McCumber Cube and attackers."
 date: 2026-10-30 12:00:00 +0500
 categories: [Daily Log, Introduction to Cybersecurity]
 tags: [cybersecurity, privacy, mccumber-cube, threat-actors]

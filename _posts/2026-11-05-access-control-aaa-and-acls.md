@@ -1,5 +1,6 @@
 ---
 title: "Network Defense, Part 2: Access Control, AAA and ACLs"
+description: "Access control in practice: AAA, federated identity, MFA, zero trust, access control models, NAC, privileged accounts and ACLs on Cisco IOS."
 date: 2026-11-05 21:00:00 +0500
 categories: [Daily Log, Network Defense]
 tags: [cybersecurity, access-control, aaa, zero-trust, mfa, rbac, acl, wildcard-mask, cisco-ios]

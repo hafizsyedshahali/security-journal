@@ -1,5 +1,6 @@
 ---
 title: "Subnetting, Step by Step"
+description: "Subnetting explained simply: subnet masks, CIDR notation, network and broadcast addresses, the block size method, and counting subnets and hosts."
 date: 2026-10-23 22:00:00 +0500
 categories: [Daily Log, Networking]
 tags: [networking, ipv4, subnetting, cidr]

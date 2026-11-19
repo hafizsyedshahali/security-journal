@@ -1,5 +1,6 @@
 ---
 title: "Cybersecurity Foundations, Part 2: Malware, Social Engineering and Common Attacks"
+description: "Introduction to Cybersecurity, part 2: types of malware, symptoms of an infection, social engineering, and how attackers get in."
 date: 2026-10-30 21:00:00 +0500
 categories: [Daily Log, Introduction to Cybersecurity]
 tags: [cybersecurity, malware, social-engineering, ddos, passwords]

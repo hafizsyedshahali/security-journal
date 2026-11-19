@@ -1,5 +1,6 @@
 ---
 title: "Endpoint Security, Part 12: Cybersecurity Principles, Practices and Processes"
+description: "The McCumber Cube in depth: confidentiality, integrity, availability, data at rest, in transit and in process, countermeasures and policies."
 date: 2026-11-04 21:00:00 +0500
 categories: [Daily Log, Endpoint Security]
 tags: [cybersecurity, cia-triad, mccumber-cube, hashing, hmac, data-states, security-policies]

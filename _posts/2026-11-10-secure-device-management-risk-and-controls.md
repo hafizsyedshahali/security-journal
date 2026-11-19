@@ -1,5 +1,6 @@
 ---
 title: "Cyber Threat Management, Part 5: Secure Device Management, Risk and Security Controls"
+description: "Managing devices securely over their whole life, the four ways to handle risk, and the security controls that turn risk decisions into protection."
 date: 2026-11-10 14:00:00 +0500
 categories: [Daily Log, Cyber Threat Management]
 tags: [cybersecurity, risk-management, vulnerability-management, patch-management, security-controls, compliance]

@@ -9,7 +9,7 @@ Certificates I've earned along the way. Most can be verified using the QR code o
 ## Cybersecurity
 
 **Junior Cybersecurity Analyst Career Path**, Cisco Networking Academy, November 2026  
-The full career path, covering network and system security, vulnerability and risk assessment, and incident response. It prepares learners for the Cisco Certified Support Technician (CCST) Cybersecurity exam.
+The full career path, covering network and system security, vulnerability and risk assessment, and incident response.
 
 **Cyber Threat Management**, Cisco Networking Academy, November 2026  
 Governance and compliance, vulnerability assessment, risk management, digital forensics and incident response.
@@ -42,7 +42,7 @@ Computer components, how they work together, and basic troubleshooting.
 **AWS Cloud Practitioner Essentials**, Amazon Web Services, October 2026  
 Core AWS services, the shared responsibility model, security, networking, storage and monitoring.
 
-## Coming next
+## Hands-on SOC training
 
-- TryHackMe SOC Level 1
-- A certification exam (still deciding which one)
+**SOC Level 1 and SOC Level 2 learning paths**, TryHackMe, completed Nov 2026  
+Hands-on labs with Splunk, Elastic, Wireshark, Snort, Zeek, Sigma, YARA, MISP, OpenCTI and Wazuh. These are learning paths, not certificates.

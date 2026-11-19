@@ -1,0 +1,39 @@
+{%- comment -%}
+  "Part X of Y" box with previous/next links for posts listed in _data/series.yml.
+  Added to those posts by _plugins/series-nav.rb. Argument: position = "top" | "bottom".
+{%- endcomment -%}
+{%- for s in site.data.series -%}
+  {%- assign idx = -1 -%}
+  {%- for slug in s.posts -%}
+    {%- if slug == page.slug -%}{%- assign idx = forloop.index0 -%}{%- endif -%}
+  {%- endfor -%}
+  {%- if idx >= 0 -%}
+    {%- assign total = s.posts.size -%}
+    {%- assign part = idx | plus: 1 -%}
+    {%- assign prev_idx = idx | minus: 1 -%}
+    {%- assign prev_post = nil -%}
+    {%- assign next_post = nil -%}
+    {%- if idx > 0 -%}
+      {%- assign prev_slug = s.posts[prev_idx] -%}
+      {%- assign prev_post = site.posts | where: 'slug', prev_slug | first -%}
+    {%- endif -%}
+    {%- if part < total -%}
+      {%- assign next_slug = s.posts[part] -%}
+      {%- assign next_post = site.posts | where: 'slug', next_slug | first -%}
+    {%- endif -%}
+    {%- assign position = include.position | default: 'top' -%}
+<nav class="series-nav series-nav--{{ position }}" aria-label="{{ s.title | escape }} series">
+<p class="series-nav__label"><strong>{{ s.title | escape }}</strong> · Part {{ part }} of {{ total }}</p>
+    {%- if position == 'bottom' %}
+<div class="series-nav__links">
+      {%- if prev_post %}
+<a class="series-nav__prev" rel="prev" href="{{ prev_post.url | relative_url }}"><span>Previous: Part {{ idx }}</span>{{ prev_post.title | escape }}</a>
+      {%- endif -%}
+      {%- if next_post %}
+<a class="series-nav__next" rel="next" href="{{ next_post.url | relative_url }}"><span>Next: Part {{ part | plus: 1 }}</span>{{ next_post.title | escape }}</a>
+      {%- endif %}
+</div>
+    {%- endif %}
+</nav>
+  {%- endif -%}
+{%- endfor -%}

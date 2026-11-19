@@ -1,5 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <rect width="100" height="100" rx="22" fill="#0b1f3a"/>
-  <text x="50" y="50" dy=".35em" text-anchor="middle" fill="#ffffff"
-        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="50">HS</text>
+  <rect width="100" height="100" rx="22" fill="#13232B"/>
+  <g fill="none" stroke="#EEF2F2" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 28 V66 M47 28 V66 M21 47 H47"/>
+    <path d="M80 33 C77 27 69 26 65 28 C58 31 58 40 66 43 L71 45 C80 48 80 59 72 63 C66 66 58 64 56 58"/>
+  </g>
+  <path d="M21 80 H79" stroke="#21707E" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="79" cy="80" r="6" fill="#5FD3E0"/>
 </svg>
